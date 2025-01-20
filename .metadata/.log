@@ -1,0 +1,39 @@
+!SESSION 2025-01-20 00:35:48.718 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-20 00:36:23.465
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-20 00:36:23.468
+!MESSAGE Log4j2 initialized with config file C:\Users\wyatt\stm32workfolder\bare-metal-drivers\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-20 00:36:27.941
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-20 00:38:23.219
+!MESSAGE Indexed '0-led-toggle-addr' (24 sources, 89 headers) in 5.84 sec: 6,725 declarations; 35,015 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0048%)
+!SESSION 2025-01-20 00:49:45.195 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-20 00:50:36.682
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-20 00:50:44.885
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-20 00:50:44.886
+!MESSAGE Log4j2 initialized with config file C:\Users\wyatt\stm32workfolder\bare-metal-drivers\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-20 00:51:11.929
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-20 01:01:24.417
+!MESSAGE Indexed '1-led-toggle-addr-struct' (24 sources, 121 headers) in 4.67 sec: 12,847 declarations; 55,218 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.35%)

@@ -1,0 +1,17 @@
+00:58:36 **** Incremental Build of configuration Debug for project 0-led-toggle-addr ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F439xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "0-led-toggle-addr.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\wyatt\stm32workfolder\bare-metal-drivers\0-led-toggle-addr\STM32F439ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0-led-toggle-addr.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0-led-toggle-addr.elf
+ 
+arm-none-eabi-size  0-led-toggle-addr.elf 
+arm-none-eabi-objdump -h -S 0-led-toggle-addr.elf  > "0-led-toggle-addr.list"
+   text	   data	    bss	    dec	    hex	filename
+    944	      4	   1572	   2520	    9d8	0-led-toggle-addr.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0-led-toggle-addr.list
+ 
+
+00:58:36 Build Finished. 0 errors, 0 warnings. (took 501ms)
+
